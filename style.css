@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3d087b;
+}
+
+.crtimg {
+  width: 600px;
+  height: 350px;
+  background-image: url(./Component\ 30\ –\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  margin-top: -445px;
+  margin-right: 550px;
+}
+
+#logoimg {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.settime {
+  width: 630px;
+  height: 400px;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 100px;
+  color: #3d087b;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.set {
+  position: absolute;
+  margin-top: 40px;
+}
+
+select {
+  font-size: 16px;
+  width: 300px;
+  height: 45px;
+  margin-left: 220px;
+  color: #3d087b;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ob-line {
+  font-size: 35px;
+  margin-left: 15px;
+  color: #ad90ce;
+}
+
+.set-text {
+  display: inline;
+  position: absolute;
+  margin-top: -3px;
+  margin-left: 25px;
+}
+
+.wake-up-box {
+  width: 630px;
+  height: 80px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background: var(#ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 0.23;
+}
+
+.set-alarm {
+  width: 320px;
+  height: 50px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 10px;
+  opacity: 0.23;
+  background: transparent
+    linear-gradient(113deg, #6e54ec 0%, #cb52f8 40%, #fc5eff 81%, #f1a7c5 100%)
+    0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.set-alarm-text {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+.alarmset {
+  margin-top: 20px;
+}
+
+.set-alarm-text:after {
+  content: "Set Alarm";
+}
+
+.set-alarm-text:hover:after {
+  content: "Party time !";
+}
+
+.time-el {
+  width: 290px;
+  height: 120px;
+  margin-top: -60px;
+  margin-left: 440px;
+  background: var(#ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(#ededed);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 0.23;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f810fc;
+}
+
+.wake-y {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.time-display {
+  width: 550px;
+  height: 130px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  float: right;
+  display: flex;
+  gap: 10px;
+  margin-top: -740px;
+  margin-right: 600px;
+}
+
+.wake-text {
+  position: absolute;
+  font-family: Bauhaus Hv BT;
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+.time-box {
+  color: #622663;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 12px;
+}
+.timed1 {
+  width: 80px;
+  height: 90px;
+  background-image: url(./timeline.svg);
+  text-align: center;
+  color: #921694;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.timed1-text {
+  margin-top: 10px;
+}
+
+.timed-cl {
+  width: 90px;
+  height: 92px;
+  background-image: url(./AM_svg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.amtext {
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.obl {
+  font-size: 40px;
+  color: #ba12bd;
+  margin-top: 40px;
+}
+
+.bfremind {
+  width: 555px;
+  height: 118px;
+  background-color: white;
+  float: right;
+  margin-top: -580px;
+  margin-right: 596px;
+  border-radius: 12px;
+  text-align: center;
+  color: #7243df;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bfremind-text {
+  margin-top: 40px;
+  font-family: Bauhaus Hv BT;
+}
