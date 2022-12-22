@@ -87,11 +87,11 @@ function displaySetTimeBox() {
     // const timeEl = document.querySelector(".time-el");
     // timeEl.style.display = "none";
 
-    if (window.innerWidth >= 746 && window.innerWidth < 1450) {
+    if (window.innerWidth >= 746 && window.innerWidth <= 1451) {
       document.querySelector('#set-time-box').style.display = 'block';
       document.querySelector('.time-el').style.visibility= 'hidden';;
     }
-  else if (window.innerWidth > 1451) {
+  else if (window.innerWidth >= 1451) {
     document.querySelector('#set-time-box').style.display = 'block';
     document.querySelector('.time-el').style.marginTop = '-190px';
   }
